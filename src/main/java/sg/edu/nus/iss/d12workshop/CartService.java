@@ -32,6 +32,16 @@ public class CartService {
         itm.setQuantity(8);
         lstItems.add(itm);
 
+        itm = new item();
+        itm.setItemName("Chanel Shoes");
+        itm.setQuantity(3);
+        lstItems.add(itm);
+
+        itm = new item();
+        itm.setItemName("Prade Bag");
+        itm.setQuantity(5);
+        lstItems.add(itm);
+
         return lstItems;
     }
     
